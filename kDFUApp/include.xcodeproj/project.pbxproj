@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		875F8AA41BA60771002918B9 /* libpartialzip-1.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "libpartialzip-1.0"; sourceTree = "<group>"; };
+		875F8AA51BA60771002918B9 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		875F8A9E1BA60771002918B9 = {
+			isa = PBXGroup;
+			children = (
+				875F8AA41BA60771002918B9 /* libpartialzip-1.0 */,
+				875F8AA51BA60771002918B9 /* Makefile.am */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		875F8AA31BA60771002918B9 /* include */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 875F8AA61BA60771002918B9 /* Build configuration list for PBXLegacyTarget "include" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/tihmstar/clones/libpartialzip-1/include";
+			dependencies = (
+			);
+			name = include;
+			passBuildSettingsInEnvironment = 1;
+			productName = include;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		875F8A9F1BA60771002918B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 875F8AA21BA60771002918B9 /* Build configuration list for PBXProject "include" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 875F8A9E1BA60771002918B9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875F8AA31BA60771002918B9 /* include */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		875F8AA01BA60771002918B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		875F8AA11BA60771002918B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		875F8AA71BA60771002918B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = include;
+			};
+			name = Debug;
+		};
+		875F8AA81BA60771002918B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875F8AA21BA60771002918B9 /* Build configuration list for PBXProject "include" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875F8AA01BA60771002918B9 /* Debug */,
+				875F8AA11BA60771002918B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875F8AA61BA60771002918B9 /* Build configuration list for PBXLegacyTarget "include" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875F8AA71BA60771002918B9 /* Debug */,
+				875F8AA81BA60771002918B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875F8A9F1BA60771002918B9 /* Project object */;
+}

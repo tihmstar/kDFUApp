@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="kDFUApp by @tihmstar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iT-nC-e6d">
+                                <rect key="frame" x="208.5" y="25" width="183.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please find a Bundle" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWa-kS-FuH">
+                                <rect key="frame" x="222" y="309" width="155" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbr-dA-u5Q">
+                                <rect key="frame" x="261" y="520" width="78" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="enter kDFU"/>
+                                <connections>
+                                    <action selector="enterkDFUPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXC-Ab-IWS"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-D0-dft">
+                                <rect key="frame" x="526" y="95" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iPQ-Aq-IOw">
+                                <rect key="frame" x="526" y="146" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AMv-Ka-f19">
+                                <rect key="frame" x="526" y="197" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download iBSS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAH-Bw-VYa">
+                                <rect key="frame" x="20" y="161" width="116.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pwn iBSS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ip-wT-OzS">
+                                <rect key="frame" x="20" y="263" width="73" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find iBSS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NgU-ph-a21">
+                                <rect key="frame" x="20" y="212" width="73" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No bundle selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPv-YD-Me4">
+                                <rect key="frame" x="20" y="63" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Waq-se-w9d">
+                                <rect key="frame" x="317" y="109" width="79" height="30"/>
+                                <state key="normal" title="delete iBSS"/>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhH-eh-uu3">
+                                <rect key="frame" x="307" y="180" width="111" height="30"/>
+                                <state key="normal" title="delete pwn iBSS"/>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iBSS not downloaded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyf-AO-9Cn">
+                                <rect key="frame" x="6" y="124" width="163" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iBSS not pwned" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtI-5V-grn">
+                                <rect key="frame" x="12" y="194" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not ready to enter kDFU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojF-ml-kxd">
+                                <rect key="frame" x="64" y="277" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAv-2s-b8J">
+                                <rect key="frame" x="194" y="63" width="81" height="30"/>
+                                <state key="normal" title="Find Bundle"/>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7a-Jb-mfM">
+                                <rect key="frame" x="110" y="323" width="78" height="30"/>
+                                <state key="normal" title="enter kDFU"/>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1N-Zk-EqG">
+                                <rect key="frame" x="177" y="115" width="104" height="30"/>
+                                <state key="normal" title="Download iBSS"/>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8L-Lx-goV">
+                                <rect key="frame" x="171" y="180" width="65" height="30"/>
+                                <state key="normal" title="Pwn iBSS"/>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BQO-yt-K3B">
+                                <rect key="frame" x="526" y="248" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Bundle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05P-jo-R3r">
+                                <rect key="frame" x="20" y="110" width="90.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="05P-jo-R3r" firstAttribute="baseline" secondItem="2Ty-D0-dft" secondAttribute="baseline" id="0ab-C4-B6b"/>
+                            <constraint firstItem="9ip-wT-OzS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4RP-O2-gf6"/>
+                            <constraint firstItem="bbr-dA-u5Q" firstAttribute="top" secondItem="MWa-kS-FuH" secondAttribute="bottom" constant="25" id="54u-5S-Jb5"/>
+                            <constraint firstItem="2Ty-D0-dft" firstAttribute="top" secondItem="4iT-nC-e6d" secondAttribute="bottom" constant="50" id="Cd4-XE-1lr"/>
+                            <constraint firstItem="MWa-kS-FuH" firstAttribute="top" secondItem="BQO-yt-K3B" secondAttribute="bottom" constant="30" id="DqI-H2-yqi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2Ty-D0-dft" secondAttribute="trailing" constant="5" id="Fvb-mz-Grt"/>
+                            <constraint firstItem="2Ty-D0-dft" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="05P-jo-R3r" secondAttribute="trailing" id="GWt-pd-MIQ"/>
+                            <constraint firstItem="4iT-nC-e6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gxd-Uj-pKg"/>
+                            <constraint firstItem="AMv-Ka-f19" firstAttribute="top" secondItem="iPQ-Aq-IOw" secondAttribute="bottom" constant="20" id="H3N-GM-Na9"/>
+                            <constraint firstItem="MWa-kS-FuH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HAr-Xw-EF9"/>
+                            <constraint firstItem="9ip-wT-OzS" firstAttribute="baseline" secondItem="BQO-yt-K3B" secondAttribute="baseline" id="IkG-uy-g4o"/>
+                            <constraint firstItem="bbr-dA-u5Q" firstAttribute="top" relation="greaterThanOrEqual" secondItem="MWa-kS-FuH" secondAttribute="bottom" id="Jod-UR-5M2"/>
+                            <constraint firstItem="AMv-Ka-f19" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NgU-ph-a21" secondAttribute="trailing" id="L0X-nl-VTj"/>
+                            <constraint firstItem="BQO-yt-K3B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9ip-wT-OzS" secondAttribute="trailing" id="Oom-AX-6yL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BQO-yt-K3B" secondAttribute="trailing" constant="5" id="PgR-Ak-lQp"/>
+                            <constraint firstItem="iPQ-Aq-IOw" firstAttribute="top" secondItem="2Ty-D0-dft" secondAttribute="bottom" constant="20" id="SmU-4y-agZ"/>
+                            <constraint firstItem="NgU-ph-a21" firstAttribute="baseline" secondItem="AMv-Ka-f19" secondAttribute="baseline" id="U3U-O9-S12"/>
+                            <constraint firstItem="BQO-yt-K3B" firstAttribute="top" secondItem="AMv-Ka-f19" secondAttribute="bottom" constant="20" id="VU4-aw-RmO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bbr-dA-u5Q" secondAttribute="bottom" constant="50" id="XYF-mf-GZQ"/>
+                            <constraint firstItem="iPQ-Aq-IOw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="Xnp-nt-ngY"/>
+                            <constraint firstItem="iPQ-Aq-IOw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pAH-Bw-VYa" secondAttribute="trailing" id="Zdl-NS-F5W"/>
+                            <constraint firstItem="bbr-dA-u5Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aty-U0-Egz"/>
+                            <constraint firstItem="05P-jo-R3r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cpb-u3-KZg"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="MWa-kS-FuH" secondAttribute="trailing" id="dSK-3D-dG5"/>
+                            <constraint firstItem="4iT-nC-e6d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="ey3-ht-Bzp"/>
+                            <constraint firstItem="bbr-dA-u5Q" firstAttribute="leading" secondItem="MWa-kS-FuH" secondAttribute="leading" constant="50" id="gE0-cz-mKC"/>
+                            <constraint firstItem="NgU-ph-a21" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gkE-5T-pRC"/>
+                            <constraint firstItem="MWa-kS-FuH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j77-eL-I5X"/>
+                            <constraint firstItem="pAH-Bw-VYa" firstAttribute="baseline" secondItem="iPQ-Aq-IOw" secondAttribute="baseline" id="jIx-r1-9oO"/>
+                            <constraint firstItem="2Ty-D0-dft" firstAttribute="leading" secondItem="4iT-nC-e6d" secondAttribute="trailing" constant="106" id="tHJ-wy-2xb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AMv-Ka-f19" secondAttribute="trailing" constant="5" id="vlB-jt-xIB"/>
+                            <constraint firstItem="pAH-Bw-VYa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="x0s-0S-fIA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iPQ-Aq-IOw" secondAttribute="trailing" constant="5" id="xgw-ky-DeY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="DPv-YD-Me4"/>
+                                <exclude reference="Waq-se-w9d"/>
+                                <exclude reference="XhH-eh-uu3"/>
+                                <exclude reference="wyf-AO-9Cn"/>
+                                <exclude reference="mtI-5V-grn"/>
+                                <exclude reference="ojF-ml-kxd"/>
+                                <exclude reference="fAv-2s-b8J"/>
+                                <exclude reference="T7a-Jb-mfM"/>
+                                <exclude reference="J1N-Zk-EqG"/>
+                                <exclude reference="q8L-Lx-goV"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="tHJ-wy-2xb"/>
+                                <exclude reference="Xnp-nt-ngY"/>
+                                <exclude reference="54u-5S-Jb5"/>
+                                <exclude reference="gE0-cz-mKC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="buttonEnterkDFU" destination="bbr-dA-u5Q" id="qdM-KL-4TV"/>
+                        <outlet property="labelDownloadiBSS" destination="pAH-Bw-VYa" id="3k2-Pl-hJD"/>
+                        <outlet property="labelFindBundle" destination="05P-jo-R3r" id="wFF-DF-koZ"/>
+                        <outlet property="labelFindiBSS" destination="NgU-ph-a21" id="7Ii-RF-R8q"/>
+                        <outlet property="labelPwniBSS" destination="9ip-wT-OzS" id="iaG-kp-oNb"/>
+                        <outlet property="statusLabel" destination="MWa-kS-FuH" id="Xxx-JI-hAz"/>
+                        <outlet property="switchDownloadiBSS" destination="iPQ-Aq-IOw" id="mor-ml-OoA"/>
+                        <outlet property="switchFindBundle" destination="2Ty-D0-dft" id="tib-a2-qfm"/>
+                        <outlet property="switchFindiBSS" destination="AMv-Ka-f19" id="OHJ-zM-wHA"/>
+                        <outlet property="switchPwniBSS" destination="BQO-yt-K3B" id="JgU-9U-qD8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="333"/>
+        </scene>
+    </scenes>
+</document>
